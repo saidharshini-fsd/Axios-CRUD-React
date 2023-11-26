@@ -35,4 +35,24 @@ body {
   }
 }
 
+.user-table {
+  width: 100%;
+  overflow-x: auto; /* Add horizontal scroll for small screens if needed */
+}
 
+/* Styles for the table headers */
+.table-row {
+  background-color: green;
+  border: 1px solid white;
+}
+
+/* Responsive styles for table cells */
+@media screen  and (max-width: 767px) {
+  /* Adjust styles for smaller screens */
+  .table td,
+  .table th {
+    font-size: 12px; /* Adjust font size */
+    padding: 8px; /* Adjust padding */
+  }
+
+}
